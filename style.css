@@ -1,0 +1,69 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(vecteezy_cartoon-colorful-panorama-of-spring-summer-beautiful-nature_7633071.svg);
+    background: cov;
+    color: #f11212;
+}
+
+.rr{
+    align-items: center;
+    padding: 100px;
+    padding-right: 50px;
+    
+}
+/* Header styles */
+header {
+    padding:
+    background-color: #ece6e2;
+    text-align: center;
+    
+    flex-wrap: wrap; /* Enable wrapping for smaller screens */
+    justify-content: space-between; /* Adjust spacing between elements */
+    align-items: center;
+    
+}
+
+
+
+header a {
+    text-decoration: none;
+}
+
+header button {
+    margin: 30px;
+    background-color: #0056b3;
+    color: #fff;
+    border: solid;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+
+header button:hover {
+    background-color: #ef47db;
+}
+
+/* Responsive Media Queries */
+
+
+footer{
+    font-weight: 100;
+    align-items: center;
+    padding: 10px;
+    align-content: center;
+    margin-right: 50px;
+    margin-left: 600px;
+    color: #ef162c;
+}
+/* Tablets */

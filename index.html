@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALL LINKS</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <H1 class="rr">ALL WBSITES LINKS RELEATED TO HTML AND CSS </H1>
+        <a href="https://ranjith0860.github.io/portfolio/" ><button>PORTFOLIO</button></a>
+        <a href="https://www.vecteezy.com/"><button>Bckground images  websites</button></a>
+        <a href="https://tinywow.com/"><button>ALL TOOLS</button></a>
+        <a href="https://acchou.github.io/html-css-cheat-sheet/html-css-cheat-sheet.html#html"><button>html css cheatsheet</button></a>
+        <a href="https://calltoinspiration.com/"><button>images for ALL</button></a>
+        <a href="https://uiverse.io/"><button>UI LIBRARY WITH CODES</button></a>
+        <a href="https://tympanus.net/codrops/"><button>all ui codes</button></a>
+    
+        
+    
+    </header>
+    
+<footer><h1>Today's Date</h1>
+    <p id="date"></p>
+    <p id="time"></p>
+
+</footer>
+    
+
+    
+<script>
+    // Function to update the date and time
+    function updateDateTime() {
+        const now = new Date();
+
+        // Format the date (e.g., "December 18, 2024")
+        const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+        const formattedDate = now.toLocaleDateString(undefined, dateOptions);
+
+        // Format the time (e.g., "10:25:45 AM")
+        const timeOptions = { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true };
+        const formattedTime = now.toLocaleTimeString(undefined, timeOptions);
+
+        // Display the date and time
+        document.getElementById('date').textContent = formattedDate;
+        document.getElementById('time').textContent = formattedTime;
+    }
+
+    // Call the function immediately and then every second
+    updateDateTime();
+    setInterval(updateDateTime, 1000);
+</script>
+</body>
+</html>
